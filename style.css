@@ -1,0 +1,429 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* -------------------DIV----------------- */
+#main{
+    margin: 0px 230px;
+}
+#nav{
+    justify-content: space-between;
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+#left-nav{
+    padding-left: 25px;
+    display: flex;
+}
+#right-nav{
+    display: flex;
+}
+#products{
+    padding-top: 1px;
+    padding-left: 72px;
+    display: flex;
+    font-size: 14px;
+}
+
+#add{
+    padding-top: 2px;
+    padding-right: 2.5em;
+    display: flex;
+    font-size: 14px;
+}
+#text{
+    position: absolute;
+    top: 27%;
+    left: 51%;
+}
+#day{
+    justify-content: space-between;
+    padding:0px 20px 0px 30px ;
+    display: flex;
+}
+#pre{
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 40px 200px 0px 0px;
+    display: flex;
+
+}
+#pre2{
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 10px 600px;
+    display: flex;
+}
+#fri{
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 10px 200px;
+    display: flex;
+}
+#tv-lern{
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 10px 350px;
+    display: flex;
+}
+#main-img{
+    position: relative;
+    padding: 25px 0px 0px 45px;
+}
+#main-img img{
+    transform: scale(1.06);
+}
+#this-month{
+    padding:4.8em 0em 0em 35em
+}
+#this-month h2{
+    letter-spacing: -2px;
+    font-size: 40px;
+    font-weight: 600;
+}
+#picks{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 370px; 
+}
+#picks2{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 250px; 
+}
+#new-in{
+    display:flex;
+    width: 1445px;
+    height: 838px;
+}
+#four-products{
+    padding-left: 20px;
+}
+#two-products1,#two-products2{
+    display: flex;
+}
+#laptop,#tab,#person,#redmi{
+    position: relative;
+}
+#mobile{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+#phone{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#tv{
+    position: relative;
+    padding-top: 150px;
+}
+#tv-types{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#tv-items-top{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#tv-items-btm{
+    position: absolute;
+    left: 17%;
+    bottom: 5%;
+    color: rgb(0, 0, 0);
+}
+#fridge{
+    position: relative;
+    padding-top: 150px;
+}
+#fridge-types{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#fridge-items-top{
+    position: absolute;
+    top: 6%;
+    left: 21%;
+}
+#fridge-items-btm{
+    position: absolute;
+    left: 28%;
+    bottom: 8%;
+    color: rgb(0, 0, 0);
+}
+#fridge{
+    margin-top: -8px;
+    padding: 0px;
+}
+/* -------------------IMAGES----------------- */
+img.laptop,img.redmi,img.person,img.tab{
+    border-radius: 30px;
+    padding:8px;
+}
+img.logo{
+    width: 110px;
+}
+
+/* -------------------ICONS----------------- */
+i.a{
+    padding-right: 25px;
+    font-size: 25px;
+}
+/* -------------------PARAGRAPHS----------------- */
+p.lap{
+    position: absolute;
+    bottom: 23%;
+    left: 28%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+p.redmi{
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    bottom: 23%;
+    left: 34%;
+    font-family: 'Lato', sans-serif;
+}
+p.tab{
+    position: absolute;
+    bottom: 20%;
+    left: 28%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+p.person{
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    font-family: 'Lato', sans-serif;
+}
+p.lap2{
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+p.redmi2{
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    bottom: 15%;
+    left: 29%;
+    font-family: 'Lato', sans-serif;
+}
+p.tab2{
+    position: absolute;
+    bottom: 13%;
+    left: 29%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+p.person2{
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20%;
+    left: 28%;
+    font-family: 'Lato', sans-serif;
+}
+p.get{
+    padding-top: 17px;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+}
+p.countdown{
+    margin:5px 0px -19px 6px;
+    font-weight: 600;
+    font-size: 66px;
+}
+p.countdown span{
+    padding: 0px 8px;
+}
+p.lern{
+    font-weight: 700;
+    padding-top: 10px;
+    /* padding-right: 10px; */
+    /* padding-bottom: 2px; */
+    border-bottom: black solid 2px;
+}
+p.pre{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding:5px 15px;
+    border-radius: 20px;
+    border: black solid 1px;
+}
+p.lern2{
+    font-weight: 700;
+    padding-top: 10px;
+    /* padding-right: 10px; */
+    /* padding-bottom: 2px; */
+    border-bottom: black solid 2px;
+}
+p.pre2{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding:5px 15px;
+    border-radius: 20px;
+    border: black solid 1px;
+}
+p.f1{
+    font-weight: 700;
+    padding-top: 10px;
+    /* padding-right: 10px; */
+    /* padding-bottom: 2px; */
+    border-bottom: black solid 2px;
+}
+p.f2{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding:5px 15px;
+    border-radius: 20px;
+    border: black solid 1px;
+}
+p.tv1{
+    font-weight: 700;
+    padding-top: 10px;
+    /* padding-right: 10px; */
+    /* padding-bottom: 2px; */
+    border-bottom: rgb(255, 255, 255) solid 2px;
+}
+p.tv2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding:5px 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: rgb(255, 255, 255) solid 1px;
+}
+p.intro{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+p.own{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+
+    font-weight: 400;
+}
+p.own span{
+    padding-right: 5px;
+    border-right: 2px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    /* margin-bottom: 1000px; */
+}
+
+/* -------------------HEADERS----------------- */
+#picks2 h3 span{
+    border-right: 2px solid black;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}   
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight:bolder;
+    padding-left: 8px;
+}
+#products h4{
+    padding: 0px 8px;
+}
+h2{
+    letter-spacing: -0.01em;
+    font-weight: bolder;
+    font-size: 3em;
+} 
+#mobile h2{
+    font-weight: 500;
+}
+#tv-top h2{
+    font-weight: 500;
+    color: white;
+}
+#picks h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+#picks2 h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+#tv-types h3{
+    padding-top: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px 25px
+}
+#tv h2{
+    margin-left: 60px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+#fridge-types h3{
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px 25px
+}
+#fridge-top h2{
+    padding-right: 100px;
+    font-weight: 600;
+}
+#fridge h2{
+    margin-left: 60px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+#greatness h2{
+    font-weight: 600;
+    font-size: 50px;
+}
+#greatness2 h2{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
